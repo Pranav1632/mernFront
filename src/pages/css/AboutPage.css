@@ -1,0 +1,130 @@
+.about-page {
+    font-family: Arial, sans-serif;
+    /* padding: 2rem; */
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    margin-top: 100px;
+  }
+
+  
+  .about-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .about-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #2e8b57;
+  }
+  
+  .about-header p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .about-section {
+    margin-bottom: 3rem;
+    margin-left: 35px
+  }
+  
+  .about-section h2 {
+    color: #2e8b57;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .mentor-card,
+  .dev-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .mentor-photo,
+  .dev-photo {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 1.5rem;
+  }
+  
+  .mentor-info p,
+  .dev-info p {
+    margin: 0.4rem 0;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  .about-footer {
+    text-align: center;
+    margin-top: 3rem;
+  }
+  
+  .back-home {
+    text-decoration: none;
+    color: #2e8b57;
+    font-weight: bold;
+  }
+  .back-home:hover {
+    text-decoration: underline;
+  }
+  .developer-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .developer-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 220px;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .developer-photo {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .developer-info p {
+    margin: 0.4rem 0;
+    color: #333;
+    line-height: 1.5;
+  }.visit-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Always 3 columns */
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .visit-card {
+    text-align: center;
+  }
+  
+  .visit-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .visit-caption {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: #333;
+  }
+  

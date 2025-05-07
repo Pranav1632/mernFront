@@ -1,0 +1,51 @@
+/* src/components/Footer.css */
+
+.footer {
+    background-color: #2e8b57; /* Light green, agricultural theme */
+    padding: 20px 0;
+    margin-top: 40px;
+    border-top: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-left h3 {
+    margin: 0;
+    color: #1b591e; /* Dark green */
+  }
+  
+  .footer-left p {
+    margin: 5px 0 0;
+    color: #191919;
+  }
+  
+  .footer-right ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-right li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-right a {
+    color: #2e7d32; /* Dark green */
+    text-decoration: none;
+  }
+  
+  .footer-right a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    color: #0f0c0c;
+  }
+  
