@@ -43,7 +43,7 @@ const MerchantForm = () => {
     setLoading(true);
 
     try {
-      const response = await fetch("https://mernback-tlij.onrender.com/forms/merchant", {
+      const response = await fetch("https://mernback-tlij.onrender.com/api/forms/merchant", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
