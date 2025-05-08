@@ -27,7 +27,7 @@ const AboutPage = () => {
       image: pranavImg
     },
     {
-      name: "Aditya Hole",
+      name: "Aaditya Hole",
       role: "Designer",
       Age: "19",
       email: "aadihole78@gmail.com",
@@ -94,8 +94,8 @@ const AboutPage = () => {
             <p><strong>Designation:</strong> Assistant Workshop Superintendent</p>
             <p><strong>Qualification:</strong> UG (Mechanical), M.E. (Digital Systems), pursuing PhD</p>
             <p><strong>Experience:</strong> 11 Years</p>
-            <p><strong>Contact:</strong> +91 98815 09104</p>
-            <p><strong>Email:</strong> mahesh.nigade@aissmsioit.org</p>
+            <p><strong>Contact:</strong> -</p>
+            <p><strong>Email:</strong> -</p>
           </div>
         </div>
 
@@ -107,7 +107,7 @@ const AboutPage = () => {
             <p><strong>Designation:</strong> Assistant Workshop Superintendent</p>
             <p><strong>Qualification:</strong> -</p>
             <p><strong>Experience:</strong> -</p>
-            <p><strong>Contact:</strong> +91 94210 55660</p>
+            <p><strong>Contact:</strong> -</p>
             <p><strong>Email:</strong> -</p>
             <p><strong>Role:</strong> Innovations, Entrepreneurship, Skill Development, Placements, Automation, Consultancy</p>
           </div>

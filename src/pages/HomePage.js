@@ -56,15 +56,15 @@ const HomePage = () => {
       {/* Stats Section */}
       <section className="stats-section">
         <div className="stat-box">
-          <h2><CountUp end={500} duration={2} />+</h2>
+          <h2><CountUp end={50} duration={3} />+</h2>
           <p>Farmers Registered</p>
         </div>
         <div className="stat-box">
-          <h2><CountUp end={300} duration={2} />+</h2>
+          <h2><CountUp end={30} duration={3} />+</h2>
           <p>Merchants Connected</p>
         </div>
         <div className="stat-box">
-          <h2><CountUp end={150} duration={2} />+</h2>
+          <h2><CountUp end={15} duration={3} />+</h2>
           <p>Companies Partnered</p>
         </div>
       </section>
