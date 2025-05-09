@@ -29,7 +29,7 @@ const HomePage = () => {
       <nav className="navbar">
         <div className="logo-container">
           <img src={krushakLogo} alt="Krushak Logo" className="logo-image" />
-          <span className="logo-text">Krushak</span>
+          <span className="logo-text">KRUSHAK</span>
         </div>
         <ul className="nav-links">
   <li><Link to="/">Home</Link></li>
